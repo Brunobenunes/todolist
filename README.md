@@ -1,4 +1,9 @@
 # ToDoList
+<details>
+  <summary><strong> Preview da Aplicação </strong></summary>
+  <p>Gif do App </p>
+  <img src='./src/images/2023-05-05_02-38-40_AdobeExpress.gif' alt="Preview do App" />
+</details>
 Este projeto é uma aplicação web que permite criar e gerenciar listas de tarefas. Ele oferece diversas funcionalidades, incluindo:
 
 - **Criação de tarefas**: É possível adicionar novas tarefas à lista, definindo o que será a tarefa.
