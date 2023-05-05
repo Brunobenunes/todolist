@@ -15,6 +15,6 @@ Este projeto é uma aplicação web que permite criar e gerenciar listas de tare
 
 - **Exclusão de tarefa selecionada**: O usuário pode excluir uma tarefa da lista ao selecioná-la e clicar no botão de exclusão.
 
-Este projeto foi desenvolvido utilizando as seguintes tecnologias: **HTML, CSS e JavaScript**. Além disso, a aplicação faz uso do recurso de armazenamento local do navegador (**LocalStorage**) para persistir os dados da lista de tarefas. A manipulação dos elementos da interface do usuário é feita através da **manipulação do DOM em JavaScript**.
+Este projeto foi desenvolvido utilizando as seguintes tecnologias: `HTML, CSS e JavaScript`. Além disso, a aplicação faz uso do recurso de armazenamento local do navegador (`LocalStorage`) para persistir os dados da lista de tarefas. A manipulação dos elementos da interface do usuário é feita através da `manipulação do DOM em JavaScript`.
 
 ### Para utilizar a aplicação, basta acessar o seguinte link: [link do Github Pages].
