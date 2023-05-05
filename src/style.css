@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: rgb(111 , 201 , 174 );
+  background-color: rgb(84, 192, 160);
 }
 
 .selected {
@@ -37,7 +37,7 @@ h1 {
   width: 500px;
   margin: auto;
   margin-top: 10px;
-  background-color: rgba(111 , 201 , 174 , 0.38);
+  background-color: rgba(93, 212, 177, 0.38);
   overflow-y: scroll;
 }
 
@@ -57,7 +57,7 @@ ol {
   width: 70%;
   margin: auto;
   margin-top: 10px;
-  background-color: rgb(111 , 201 , 174 );
+  background-color: rgb(84, 209, 172);
 }
 
 .backButtons {
@@ -120,6 +120,7 @@ label {
 #apaga-tudo {
   background-color: rgb(255 , 72 , 72 );
   border: rgb(255 , 72 , 72 );
+  border-radius: 10px;
 }
 
 button:active {
@@ -127,21 +128,25 @@ button:active {
 }
 button {
   transition: 0.2s;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 #remover-finalizados {
   background-color: rgb(255 , 86 , 127 );
   border: rgb(255 , 86 , 127 );
+  border-radius: 10px;
 }
 
 #salvar-tarefas {
   background-color: rgb(255 , 218 , 27 );
   border: rgb(255 , 218 , 27 );
+  border-radius: 10px;
 }
 
 #remover-selecionado {
-  background-color: rgb(95 , 255 , 38 );
+  background-color: rgb(172, 255, 64);
   border: rgb(95 , 255 , 38 );
+  border-radius: 10px;
 }
 
 .input {
@@ -153,4 +158,14 @@ button {
   border: none;
   padding: 5px;
   font-family: Arimo, sans-serif;
+}
+
+.backTasks::-webkit-scrollbar {
+  width: 10px;
+}
+
+.backTasks::-webkit-scrollbar-thumb {
+  background-color: rgb(255 , 72 , 72 );
+  border-radius: 20px;
+  
 }
