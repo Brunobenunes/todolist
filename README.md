@@ -2,7 +2,7 @@
 <details>
   <summary><strong> Preview da Aplicação </strong></summary>
   <p>Gif do App </p>
-  <img src='./src/images/2023-05-05_02-38-40_AdobeExpress.gif' alt="Preview do App" />
+  <img src="./src/images/gifPreview.gif" alt="gif" width="450px"/>
 </details>
 Este projeto é uma aplicação web que permite criar e gerenciar listas de tarefas. Ele oferece diversas funcionalidades, incluindo:
 
