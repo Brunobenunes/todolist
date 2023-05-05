@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: rgb(111 , 201 , 174 );
+}
+
+.selected {
+  background-color: gray;
+}
+
+.completed {
+  text-decoration: line-through solid black;
+}
+
+main {
+  width: 700px;
+  border-radius: 20px;
+  height: 500px;
+  margin: auto;
+  margin-top: 5%;
+  background-color: white;
+}
+
+h1 {
+  text-align: center;
+  font-family: Arimo, sans-serif;
+  font-weight: 700;
+  padding-top: 10px;
+}
+
+.backTasks {
+  border-radius: 20px;
+  height: 300px;
+  width: 500px;
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgba(111 , 201 , 174 , 0.38);
+  overflow-y: scroll;
+}
+
+p {
+  margin-left: 50px;
+  margin-top: 20px;
+  font-family: Arimo, sans-serif;
+  font-weight: 400;
+}
+
+ol {
+  margin-left: 50px;
+  font-size: 18px;
+}
+
+.tasksBack {
+  width: 70%;
+  margin: auto;
+  margin-top: 10px;
+  background-color: rgb(111 , 201 , 174 );
+}
+
+.backButtons {
+  display: flex;
+  width: 500px;
+  justify-content: space-between;
+  height: 30px;
+  margin: auto;
+  margin-top: 70px;
+  margin-left: 50px;
+}
+
+.principalButtons {
+  width: 100px;
+  height: 35px;
+  border-radius: 15%;
+  margin-top: -30px;
+}
+
+.asideButton {
+  display: flex;
+  height: 100px;
+  position: absolute;
+  top: 200px;
+  right: 375px;
+}
+
+.buttonsAside {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100px;
+}
+
+#mover-cima {
+  border-radius: 15px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(255 , 127 , 10 );
+  border: rgb(255 , 127 , 10 );
+}
+
+#mover-baixo {
+  border-radius: 15px;
+  height: 30px;
+  padding: 5px;
+  text-align: center;
+  background-color: rgb(255 , 127 , 10 );
+  border: rgb(255 , 127 , 10 );
+}
+
+label {
+  margin-left: 15px;
+  font-family: Arimo, sans-serif;
+  font-weight: 600;
+}
+
+
+#apaga-tudo {
+  background-color: rgb(255 , 72 , 72 );
+  border: rgb(255 , 72 , 72 );
+}
+
+button:active {
+  transform: scale(0.8);
+}
+button {
+  transition: 0.2s;
+}
+
+#remover-finalizados {
+  background-color: rgb(255 , 86 , 127 );
+  border: rgb(255 , 86 , 127 );
+}
+
+#salvar-tarefas {
+  background-color: rgb(255 , 218 , 27 );
+  border: rgb(255 , 218 , 27 );
+}
+
+#remover-selecionado {
+  background-color: rgb(95 , 255 , 38 );
+  border: rgb(95 , 255 , 38 );
+}
+
+.input {
+  padding: 5px;
+}
+
+#texto-tarefa {
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  font-family: Arimo, sans-serif;
+}

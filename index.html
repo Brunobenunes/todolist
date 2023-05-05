@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./src/style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Arimo:ital,wght@0,600;1,400;1,700&display=swap" rel="stylesheet">
+  <title>Todo List</title>
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1> Minha Lista de Tarefas </h1>
+    </header>
+    <p id="funcionamento">Clique duas vezes em um item para marcá-lo como completo</p>
+    <div class="backTasks">
+      <div class="input">
+        <label for="texto-tarefa">Nova Tarefa</label>
+        <input type="text" id="texto-tarefa" placeholder="Add" name="task">
+        <button id="criar-tarefa">Ok</button>
+      </div>
+
+      <div class="tasksBack">
+        <ol id="lista-tarefas">
+        </ol>
+      </div>
+    </div>
+    <div class="backButtons">
+      <button id="apaga-tudo" class="principalButtons">Apagar toda Lista</button>
+      <button id="remover-finalizados" class="principalButtons">Apagar Tarefas Finalizadas</button>
+      <button id="salvar-tarefas" class="principalButtons">Salvar Tarefas</button>
+      <button id="remover-selecionado" class="principalButtons">Remover Selecionado</button>
+    </div>
+    <aside class="asideButton">
+      <div class="buttonsAside">
+        <button id="mover-cima"> Cima</button>
+        <button id="mover-baixo">Baixo</button>
+      </div>
+    </aside>
+
+  </main>
+
+</body>
+<script src="./src/script.js"></script>
+
+</html>
